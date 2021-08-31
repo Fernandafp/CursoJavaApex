@@ -7,17 +7,22 @@
     <title>Document</title>
     <script>
 
-var temperatura = prompt (" Informe a temperatura")
-
-var temperatura1 = prompt ("1) Celsus para Fahrenheit \n2) Fahrenheit para Celsus")
+var temperatura = prompt ("1) Celsus para Fahrenheit \n2) Fahrenheit para Celsus")
 
 
-if(temperatura1 == 1){
 
-document.write("ºF" + (temperatura*1,8)}
+var valor = prompt ("Informe o valor")
 
-if ( temperatura == 2){
-    document.write("ºC" +(temperatura /32)}
+
+if(temperatura == 1){
+    var calculo = ((valor - 32)/1.8);
+alert("Celsus" + calculo. toFixed(0))
+}else{
+    var calculo = ((valor * 1.8)+32);
+    alert("Fahrenheit"+ calculo. toFixed(0))
+}
+
+
 
 
 
