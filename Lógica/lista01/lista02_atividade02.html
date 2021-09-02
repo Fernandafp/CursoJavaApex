@@ -7,21 +7,19 @@
     <title>Document</title>
     <script>
 
-var valor = prompt(" Informe um valor.")
-var indiceI = 0
-var indiceF = 10
+var valor = parseInt(prompt(" Informe um valor."))
+var indice1 = valor-10
+var indice2 = valor+10
 
-//laço
-while(indiceI >= +10){
-    document.write(indice+"<br>")
-    indice++
+while(indice1 <= indice2){
+document.write(indice1+"<br>")
+indice1++
 }
-document.write("<hr>")
-while(indiceF <= -10){
-    document.write(indice+"<br>")
-    indice--
 
-}
+
+
+
+
 //Incremento: ++(+1)
 //Decremmento:-- (-1)
 //Incremento +2: +=2
