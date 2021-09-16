@@ -36,5 +36,6 @@ SELECT * FROM usuarios;
  SELECT idade , IF (idade>=18, "Maior de idade", "Menor de idade")
  FROM usuarios;
 
- 8)SELECT * FROM usuarios WHERE email LIKE "%gmail.com" AND 
+ 8)SELECT * FROM usuarios WHERE email LIKE "%gmail.com" AND ;
 
+use exercicios3;
